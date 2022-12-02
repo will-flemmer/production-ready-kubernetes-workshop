@@ -20,6 +20,10 @@ r = redis.Redis(
 )
 
 
+@app.route("/secrets", methods=["GET"])
+def get_secrets():
+  return {"success": "True"}
+
 @app.route("/secrets", methods=["POST"])
 def create_secret():
     print("here")

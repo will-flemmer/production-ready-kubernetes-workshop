@@ -1,5 +1,6 @@
 # Chapter 0 - Create a DigitalOcean Kubernetes Cluster with Terraform
 
+
 ## Rationale 
 In order to setup a GitOps workflow, you need to use an Infrastructure as Code (IaC) tool so you can define  infrastructure in files that can be tracked by a source control tool like Git. 
 
